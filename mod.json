@@ -1,0 +1,7 @@
+{
+    "name": "mi",
+    "version": "0.0.25",
+    "label": "moari",
+    "description": "Add maori civilization to 0 A.D.Oficial",
+    "dependencies": ["0ad=0.0.25"]
+}
