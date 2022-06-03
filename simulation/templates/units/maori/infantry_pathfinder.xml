@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_scout">
+  <Vision>
+    <Range>180</Range>
+  </Vision>
+  <Identity>
+    <GenericName>Scout</GenericName>
+    <SpecificName>Kimi Ara</SpecificName>
+    <Icon>units/hele_support_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/maori/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/maori/healer.xml</Actor>
+  </VisualActor>
+</Entity>

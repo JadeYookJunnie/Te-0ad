@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <GenericName>Wizard</GenericName>
+    <SpecificName>Ruānuku</SpecificName>
+    <Icon>units/hele_support_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/maori/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/maori/healer.xml</Actor>
+  </VisualActor>
+</Entity>
