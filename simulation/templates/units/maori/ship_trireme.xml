@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_trireme">
+  <Cost>
+    <BuildTime>40</BuildTime>
+  </Cost>
+  <Footprint>
+    <Square width="12.0" depth="36.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>40</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="add">200</Max>
+  </Health>
+  <Identity>
+    <Civ>iber</Civ>
+    <SpecificName>Kōupapa</SpecificName>
+    <Tooltip>Transport many soldiers across the sea.</Tooltip>
+    <Icon>units/celt_ship_trireme.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp op="add">20</xp>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>structures/maori/trireme.xml</Actor>
+  </VisualActor>
+</Entity>

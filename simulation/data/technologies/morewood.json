@@ -1,0 +1,27 @@
+{
+	"genericName": "get wood",
+	"description": "Increases wood gathering rates for trees.",
+	"cost": {
+		"wood": 254,
+		"stone": 10
+	},
+	"requirements":  {
+		"all": [
+			{
+				"tech": "phase_village"
+			},
+			{
+				"civ": "maori"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "wood_axe_01.png",
+	"researchTime": 7,
+	"tooltip": "Workers +72% wood gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.72 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

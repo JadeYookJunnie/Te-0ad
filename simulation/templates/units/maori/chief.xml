@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_maceman">
+<Attack>
+    <Melee>
+      <AttackName>ponamu</AttackName>
+      <Damage>
+        <Hack>13</Hack>
+        <Crush>36</Crush>
+      </Damage>
+      <MaxRange>5</MaxRange>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1300</RepeatTime>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Identity>
+    <SelectionGroupName>units/maori/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Maori Chieften</GenericName>
+    <SpecificName>tētē kura </SpecificName>
+    <Icon>units/athen_infantry_spearman.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/maori/chief</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/maori/chief.xml</Actor>
+  </VisualActor>
+</Entity>
