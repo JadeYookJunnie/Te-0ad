@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_healer_male.xml">
+      <mesh>skeletal/new/m_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/moari_male.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/fire_stick.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <group>
+      <variant frequency="1" name="tunic">
+        <textures>
+          <texture file="skeletal/moari_solder.png" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/attack.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
